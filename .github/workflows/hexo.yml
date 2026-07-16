@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: Deploy Hexo site to Pages
 
 on:
   push:
@@ -27,12 +27,14 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: peaceiris/actions-hugo@v3
+      - uses: actions/setup-node@v4
         with:
-          hugo-version: latest
-          extended: true
+          node-version: '20'
+          cache: 'npm'
 
-      - run: hugo --minify
+      - run: npm ci
+
+      - run: npx hexo generate
 
       - uses: actions/configure-pages@v5
 

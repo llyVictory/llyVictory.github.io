@@ -1,13 +1,9 @@
-+++
-title = "关于"
-date = '2026-07-16T16:21:57+08:00'
-draft = false
-summary = "程序员不鸭 · Java + AI Agent 开发实践者"
-ShowToc = false
-type = "page"
-weight = 1
-+++
-
+---
+title: about
+date: 2026-07-16 17:25:30
+type: "about"
+layout: "about"
+---
 ## 程序员不鸭 🦆
 
 Java 后端工程师，专注 **Java + AI Agent** 方向的工程落地。
@@ -32,5 +28,3 @@ Java 后端工程师，专注 **Java + AI Agent** 方向的工程落地。
 
 - ✉️ Email：[lilongyu2022@163.com](mailto:lilongyu2022@163.com)
 - 🐙 GitHub：[@llyVictory](https://github.com/llyVictory)
-
-> 如果文章对你有帮助，欢迎在文末留言或开 Issue 讨论。
