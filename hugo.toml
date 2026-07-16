@@ -1,4 +1,117 @@
 baseURL = "https://llyVictory.github.io/"
-languageCode = "zh-cn"
-title = "LLY Blog"
+locale = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "程序员不鸭"
 theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+lineNos = false
+codeFences = true
+guessSyntax = true
+
+[permalinks]
+posts = "/posts/:slugorcontentbasename/"
+
+[minify]
+disableXML = true
+[minify.tdewolff.html]
+keepWhitespace = true
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# ---------- PaperMod 主配置 ----------
+[params]
+env = "production"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowToc = true
+TocOpen = false
+EnableImageLazyLoading = true
+EnableImageZoom = true
+HideSummary = false
+DateFormat = "2006-01-02"
+description = "程序员不鸭 · Java 与 AI Agent 开发实践笔记"
+author = ["程序员不鸭"]
+keywords = ["Java", "Spring", "Redis", "AI Agent", "Docker", "Kubernetes", "技术博客"]
+editPost = { URL = "https://github.com/llyVictory/llyVictory.github.io/edit/main/content", Text = "编辑本文", App = "github.com" }
+
+# 首页头像+介绍块（homeInfoParams，取代整屏 Profile）
+[params.homeInfoParams]
+Title = "你好，我是程序员不鸭 🦆"
+Image = "/picture.jpg"
+Content = "Java 后端 + AI Agent 开发实践笔记。<br>记录 Spring / Redis / 并发 / Docker / Kubernetes，以及把 LLM Agent 落地到工程里的踩坑与设计。<br>欢迎交流。"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/llyVictory"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:lilongyu2022@163.com"
+
+[params.cover]
+responsiveImagesEnabled = true
+linkFullImages = true
+hidden = false
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 2
+keys = ["title", "summary", "content", "tags", "categories"]
+
+# ponytail: Giscus/GA/Mermaid/KaTeX 等第一篇真用到再加，现在配是投机脚手架
+
+# ---------- 菜单 ----------
+[[menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 40
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 50

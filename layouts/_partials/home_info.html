@@ -1,0 +1,18 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    {{- with site.Params.homeInfoParams.Image }}
+    <header class="entry-header">
+        <img draggable="false" src="{{ . | absURL }}" alt="{{ site.Params.homeInfoParams.Title }}"
+            width="120" height="120" style="border-radius:50%;object-fit:cover;margin:0 auto 1em;display:block" />
+        <h1>{{ site.Params.homeInfoParams.Title | markdownify }}</h1>
+    </header>
+    {{- end }}
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
