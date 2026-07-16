@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://github.com/llyVictory",
   },
 
-  logo: "/logo.svg",
+  logo: "/picture.jpg",
 
   repo: "llyVictory/llyVictory.github.io",
 
