@@ -4,12 +4,10 @@ icon: house
 title: 程序员不鸭
 heroText: 程序员不鸭
 tagline: Java 后端 + AI Agent 开发实践知识库
-heroImage: /picture.jpg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroAlt: 程序员不鸭
 actions:
   - text: 开始阅读
     icon: lightbulb
