@@ -28,5 +28,5 @@ Java 后端工程师，专注 **Java + AI Agent** 方向的工程落地。
 
 ## 联系
 
-- ✉️ Email：[lilongyu2022@163.com](mailto:lilongyu2022@163.com)
-- 🐙 GitHub：[@llyVictory](https://github.com/llyVictory)
+- Email：[lilongyu2022@163.com](mailto:lilongyu2022@163.com)
+- GitHub：[@llyVictory](https://github.com/llyVictory)

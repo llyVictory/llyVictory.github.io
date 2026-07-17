@@ -15,6 +15,9 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // ponytail: 关掉 pageInfo 一行的自动 tooltip emoji 和彩色分类徽章，只留 SVG 图标
+  pure: true,
+
   // 左上角导航栏 logo
   logo: "/logo.png",
 
