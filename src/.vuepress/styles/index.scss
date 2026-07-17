@@ -1,13 +1,15 @@
 // place your custom styles here
-// Claude-ish 视觉语言：暖中性、衬线标题、克制圆角与边框；非 Claude 商标/UI 组件复刻
+// ccswitch 风格：暖奶油纸底 + 赤陶橙 + Inter/Fira Code，全无衬线，12px 圆角
 
 // ponytail: theme-hope 只在 var(...) 里引用 --vp-font* 却从不定义，sass-palette 把字体串当非颜色丢弃，这里手工补定义
 :root {
-  --vp-font: "Hanken Grotesk", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif,
+  --vp-font: "Inter", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB",
+    "Source Han Sans SC", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
-  --vp-font-heading: "Newsreader", "Noto Serif SC", ui-serif, Georgia, Cambria,
-    "Times New Roman", serif;
-  --vp-font-mono: ui-monospace, "JetBrains Mono", "Menlo", "Consolas", monospace;
+  --vp-font-heading: "Inter", "PingFang SC", "Microsoft YaHei",
+    "Source Han Sans SC", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  --vp-font-mono: "Fira Code", ui-monospace, "JetBrains Mono", "Menlo",
+    "Consolas", monospace;
 }
 
 // 首页 hero 区：暖米白底 + 顶部极淡暖光晕（贴 Claude 风格，去远程彩色 svg）
@@ -17,7 +19,7 @@
   padding-bottom: 2vh;
   background-image: radial-gradient(
     ellipse 80% 60% at 50% 0%,
-    rgb(217 119 87 / 10%),
+    rgb(212 93 53 / 10%),
     transparent 70%
   );
 }
@@ -25,7 +27,7 @@
 [data-theme="dark"] .vp-hero-info-wrapper {
   background-image: radial-gradient(
     ellipse 80% 60% at 50% 0%,
-    rgb(217 119 87 / 14%),
+    rgb(212 93 53 / 14%),
     transparent 70%
   );
 }
@@ -47,7 +49,7 @@
 
 // hero CTA 按钮：边框圆角小一点，主按钮走铜橙
 .vp-hero-action {
-  border-radius: 8px;
+  border-radius: 12px;
   font-weight: 500;
   letter-spacing: 0.08em;
 }
@@ -92,11 +94,11 @@
 .vp-features {
   margin: 0.5rem 0;
 }
-// 特性卡片：8px 圆角、细边框、hover 轻浮（一行 4 列，紧凑）
+// 特性卡片：12px 圆角、细边框、hover 轻浮（一行 4 列，紧凑）
 .vp-feature-item {
   margin: 0.25rem;
   padding: 0.6rem 0.8rem;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 1px solid var(--vp-c-border);
   background-color: var(--vp-c-bg-elv);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -130,8 +132,8 @@
   color: var(--vp-c-accent);
 }
 
-// 代码块：8px 圆角、暖底
+// 代码块：12px 圆角、暖底
 .vp-doc div[class*="language-"] {
-  border-radius: 8px;
+  border-radius: 12px;
   border: 1px solid var(--vp-c-divider);
 }

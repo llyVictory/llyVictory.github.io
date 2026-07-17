@@ -1,35 +1,35 @@
-// Claude-ish 配色：暖米白 / 炭黑双套
+// ccswitch 风格配色：暖奶油纸 / 暖炭双套（值取自 ccswitch.io 设计系统）
 $vp-c-bg: (
-  light: #f5f4ee,
-  dark: #1f1e1d,
+  light: #eeeae2,
+  dark: #23201a,
 );
 $vp-c-bg-alt: (
-  light: #efede3,
-  dark: #262624,
+  light: #e8e2d9,
+  dark: #2a2620,
 );
 $vp-c-bg-elv: (
-  light: #fafaf7,
-  dark: #262624,
+  light: #e1dad0,
+  dark: #332f28,
 );
 
-// 文字
+// 文字（暖深褐，非纯黑）
 $vp-c-text: (
-  light: #1f1e1d,
-  dark: #ececea,
+  light: #2c2621,
+  dark: #e7e1da,
 );
 
 // 边框 / 分隔线
 $vp-c-border: (
-  light: #e0ddd2,
-  dark: #3a3a37,
+  light: #d5cec3,
+  dark: #464139,
 );
 $vp-c-divider: (
-  light: #e5e3da,
-  dark: #2e2e2a,
+  light: #e4dfd7,
+  dark: #3a342b,
 );
 
 // 阴影（克制的暖灰）
 $vp-c-shadow: (
-  light: rgb(31 30 29 / 8%),
+  light: rgb(44 38 33 / 8%),
   dark: rgb(0 0 0 / 30%),
 );
