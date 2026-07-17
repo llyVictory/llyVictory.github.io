@@ -15,6 +15,9 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // 左上角导航栏 logo
+  logo: "/logo.png",
+
   // 导航栏
   navbar,
 

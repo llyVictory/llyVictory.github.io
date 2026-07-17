@@ -1,1 +1,7 @@
 // place your custom styles here
+
+// 首页 hero 区给足高度，让标题视觉下移
+.vp-hero-info-wrapper {
+  min-height: 60vh;
+  padding-top: 10vh;
+}
