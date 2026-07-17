@@ -1,1 +1,35 @@
-// you can change colors here
+// Claude-ish 配色：暖米白 / 炭黑双套
+$vp-c-bg: (
+  light: #f5f4ee,
+  dark: #1f1e1d,
+);
+$vp-c-bg-alt: (
+  light: #efede3,
+  dark: #262624,
+);
+$vp-c-bg-elv: (
+  light: #fafaf7,
+  dark: #262624,
+);
+
+// 文字
+$vp-c-text: (
+  light: #1f1e1d,
+  dark: #ececea,
+);
+
+// 边框 / 分隔线
+$vp-c-border: (
+  light: #e0ddd2,
+  dark: #3a3a37,
+);
+$vp-c-divider: (
+  light: #e5e3da,
+  dark: #2e2e2a,
+);
+
+// 阴影（克制的暖灰）
+$vp-c-shadow: (
+  light: rgb(31 30 29 / 8%),
+  dark: rgb(0 0 0 / 30%),
+);

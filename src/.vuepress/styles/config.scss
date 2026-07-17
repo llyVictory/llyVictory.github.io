@@ -1,2 +1,12 @@
-// you can change config here
-$theme-color: #096dd9;
+// Claude-ish 主题色：铜橙
+$theme-color: #d97757;
+
+// 代码块配色（Shiki）
+$code-color: (
+  light: #383a42,
+  dark: #abb2bf,
+);
+$code-bg-color: (
+  light: #efeae0,
+  dark: #2a2a26,
+);
