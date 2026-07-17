@@ -1,32 +1,25 @@
 ---
 home: true
-icon: house
 title: 程序员不鸭
 heroText: 程序员不鸭
 tagline: Java 后端 + AI Agent 开发实践知识库
 actions:
   - text: 开始阅读
-    icon: lightbulb
     link: /java/
     type: primary
   - text: AI 应用开发
-    icon: robot
     link: /ai/
 features:
   - title: Java 后端
-    icon: language
     details: Java 基础、并发编程、JVM、Spring 体系，从原理到工程实践。
     link: /java/
   - title: 中间件
-    icon: layer-group
     details: Redis 缓存设计、消息队列选型与可靠性，高频面试与生产踩坑。
     link: /middleware/
   - title: AI 应用开发
-    icon: robot
     details: LLM 基础、Agent 编排、RAG 检索增强，把大模型落地到工程。
     link: /ai/
   - title: 基础设施
-    icon: server
     details: Docker、Kubernetes、CI/CD，让上面这些跑稳在生产环境。
     link: /infra/
 copyright: false

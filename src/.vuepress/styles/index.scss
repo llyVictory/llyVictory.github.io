@@ -34,7 +34,7 @@
 .vp-hero-info .vp-hero-title {
   font-family: var(--vp-font-heading);
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   background: none;
   -webkit-text-fill-color: currentcolor;
   color: var(--vp-c-text);
@@ -60,16 +60,32 @@
   border: 1px solid var(--vp-c-border);
 }
 
-// 导航栏：暖米白底 + 细底边
+// 导航栏：暖米白底 + 细底边 + 菜单项字间距撑开
 .vp-navbar {
   background-color: var(--vp-c-bg);
   border-bottom: 1px solid var(--vp-c-divider);
   box-shadow: none;
 }
+// ponytail: theme-hope 的一级菜单项默认间距偏紧，直接在跳层原位加字间距与项间距
+.vp-nav-links .auto-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+}
+.vp-nav-item > .auto-link,
+.vp-nav-item > .vp-dropdown-wrapper > .vp-dropdown-title {
+  padding-inline: 0.85rem;
+  letter-spacing: 0.08em;
+  font-size: 0.96rem;
+  font-weight: 500;
+}
+.vp-dropdown-title .arrow {
+  margin-inline-start: 0.25em;
+}
 .vp-site-name {
   font-family: var(--vp-font-heading);
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
 }
 
 .vp-features {
