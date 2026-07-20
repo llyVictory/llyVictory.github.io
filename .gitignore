@@ -7,3 +7,5 @@ src/.vuepress/dist/
 Thumbs.db
 *.log
 /.idea/
+/src/.obsidian/*
+
