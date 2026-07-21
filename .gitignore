@@ -11,3 +11,6 @@ Thumbs.db
 
 /docs/*
 
+/.codegraph/
+/docs/
+
