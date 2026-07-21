@@ -3,7 +3,6 @@ title: Agent
 dir:
   link: true
   collapsible: true
-  order: 2
 category:
   - AI
 ---
