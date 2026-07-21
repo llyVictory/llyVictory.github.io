@@ -1,6 +1,5 @@
 ---
 title: Java 基础
-icon: book
 category:
   - Java
 ---

@@ -1,6 +1,5 @@
 ---
 title: Java 后端
-icon: language
 order: 1
 category:
   - Java

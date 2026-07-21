@@ -1,6 +1,5 @@
 ---
 title: 并发编程
-icon: bars-staggered
 category:
   - Java
 ---

@@ -1,6 +1,5 @@
 ---
 title: 关于
-icon: circle-info
 order: -1
 category:
   - 关于

@@ -1,6 +1,5 @@
 ---
 title: AI 应用开发
-icon: robot
 order: 3
 category:
   - AI

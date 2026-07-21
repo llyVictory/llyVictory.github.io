@@ -1,6 +1,5 @@
 ---
 title: JVM
-icon: microchip
 category:
   - Java
 ---

@@ -1,6 +1,5 @@
 ---
 title: 中间件
-icon: layer-group
 order: 2
 category:
   - 中间件

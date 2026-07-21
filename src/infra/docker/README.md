@@ -1,6 +1,5 @@
 ---
 title: Docker
-icon: docker
 category:
   - 基础设施
 ---

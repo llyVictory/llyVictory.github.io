@@ -1,6 +1,5 @@
 ---
 title: Kubernetes
-icon: dharmachakra
 category:
   - 基础设施
 ---

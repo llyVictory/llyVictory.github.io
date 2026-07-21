@@ -1,6 +1,5 @@
 ---
 title: RAG
-icon: magnifying-glass
 category:
   - AI
 ---

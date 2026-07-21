@@ -1,6 +1,5 @@
 ---
 title: 大模型基础
-icon: brain
 category:
   - AI
 ---

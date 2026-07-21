@@ -1,6 +1,5 @@
 ---
 title: Spring
-icon: leaf
 category:
   - Java
 ---

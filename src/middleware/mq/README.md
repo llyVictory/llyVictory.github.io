@@ -1,6 +1,5 @@
 ---
 title: 消息队列
-icon: envelopes-bulk
 category:
   - 中间件
 ---

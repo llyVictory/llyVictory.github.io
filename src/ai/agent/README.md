@@ -1,8 +1,9 @@
 ---
 title: Agent
-icon: robot
 dir:
   link: true
+  collapsible: true
+  order: 2
 category:
   - AI
 ---

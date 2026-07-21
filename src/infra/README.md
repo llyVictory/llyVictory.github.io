@@ -1,6 +1,5 @@
 ---
 title: 基础设施
-icon: server
 order: 4
 category:
   - 基础设施

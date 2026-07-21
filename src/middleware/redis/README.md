@@ -1,6 +1,5 @@
 ---
 title: Redis
-icon: database
 category:
   - 中间件
 ---
