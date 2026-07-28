@@ -1,5 +1,8 @@
 ---
 title: 消息队列
+dir:
+  link: true
+  collapsible: true
 category:
   - 中间件
 ---
@@ -8,4 +11,4 @@ category:
 
 Kafka / RocketMQ / RabbitMQ 选型、可靠性、顺序与幂等。
 
-> 内容整理中，敬请期待。
+

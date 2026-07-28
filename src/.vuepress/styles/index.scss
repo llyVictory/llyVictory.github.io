@@ -118,6 +118,11 @@
   font-family: var(--vp-font-heading);
 }
 
+// 面包屑只显示到当前文章的上一级，避免与正文标题重复
+.vp-breadcrumb li.is-active a {
+  display: none;
+}
+
 // 正文标题：衬线 + 收紧
 .vp-doc h1,
 .vp-doc h2,
