@@ -13,6 +13,11 @@ export default navbar([
     ],
   },
   {
+    text: "数据库",
+    prefix: "/database/",
+    children: [{ text: "MySQL", prefix: "mysql/", link: "mysql/" }],
+  },
+  {
     text: "中间件",
     prefix: "/middleware/",
     children: [

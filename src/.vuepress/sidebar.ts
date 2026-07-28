@@ -10,6 +10,12 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "数据库",
+      prefix: "database/",
+      link: "database/",
+      children: "structure",
+    },
+    {
       text: "中间件",
       prefix: "middleware/",
       link: "middleware/",
