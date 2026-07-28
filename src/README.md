@@ -43,8 +43,8 @@ footer: 程序员不鸭 · Java + AI Agent 开发实践知识库 | 使用 <a hre
 
 ## 写作原则
 
-- 不写水文，只写自己验证过的东西。
-- 先讲清楚问题，再讲方案，最后讲为什么是这个方案。
-- 代码能跑就贴能跑的，不能跑就说明为什么。
+- 写点东西帮助自己学习。
+- 问题驱动。
+- 后面想起来再说。
 
 > 内容持续更新中，欢迎在 [GitHub](https://github.com/llyVictory/llyVictory.github.io) 上提 Issue 交流。
