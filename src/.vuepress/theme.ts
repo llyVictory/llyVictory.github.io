@@ -23,6 +23,11 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language", "Search", "Repo", "Outlook"],
+  },
 
   // 侧边栏
   sidebar,
@@ -64,6 +69,8 @@ export default hopeTheme({
   },
 
   plugins: {
+    slimsearch: true,
+
     components: {
       components: ["Badge", "VPCard"],
     },
@@ -72,6 +79,6 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
 
-    // ponytail: 评论(Giscus)/PWA/DocSearch 等第一篇真需要时再加，现在配是投机脚手架
+    // ponytail: 评论(Giscus)/PWA 等第一篇真需要时再加，现在配是投机脚手架
   },
 });
